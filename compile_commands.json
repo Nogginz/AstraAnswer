@@ -1,0 +1,77 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O0",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "clever_williams.o",
+      "clever_williams.c"
+    ],
+    "directory": "/home/fuzz/AstraAnswer",
+    "file": "/home/fuzz/AstraAnswer/clever_williams.c",
+    "output": "/home/fuzz/AstraAnswer/clever_williams.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O0",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "kirch.o",
+      "kirch.c"
+    ],
+    "directory": "/home/fuzz/AstraAnswer",
+    "file": "/home/fuzz/AstraAnswer/kirch.c",
+    "output": "/home/fuzz/AstraAnswer/kirch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O0",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "print_kirch.o",
+      "print_kirch.c"
+    ],
+    "directory": "/home/fuzz/AstraAnswer",
+    "file": "/home/fuzz/AstraAnswer/print_kirch.c",
+    "output": "/home/fuzz/AstraAnswer/print_kirch.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O0",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "trusty_reflection.o",
+      "trusty_reflection.c"
+    ],
+    "directory": "/home/fuzz/AstraAnswer",
+    "file": "/home/fuzz/AstraAnswer/trusty_reflection.c",
+    "output": "/home/fuzz/AstraAnswer/trusty_reflection.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O0",
+      "-g",
+      "-Wall",
+      "-c",
+      "-o",
+      "bhaskara.o",
+      "bhaskara.c"
+    ],
+    "directory": "/home/fuzz/AstraAnswer",
+    "file": "/home/fuzz/AstraAnswer/bhaskara.c",
+    "output": "/home/fuzz/AstraAnswer/bhaskara.o"
+  }
+]

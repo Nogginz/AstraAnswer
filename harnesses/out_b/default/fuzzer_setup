@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./harnesses/build_syntax_tree_persistens.out
+AFL_CUSTOM_INFO_PROGRAM_ARGV=
+AFL_CUSTOM_INFO_OUT=harnesses/out_b/default
+# command line:
+'afl-fuzz' '-i' 'harnesses/in' '-o' 'harnesses/out_b' '--' './harnesses/build_syntax_tree_persistens.out'
