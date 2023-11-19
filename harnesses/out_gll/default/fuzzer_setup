@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./harnesses/get_lexem_list.out
+AFL_CUSTOM_INFO_PROGRAM_ARGV=
+AFL_CUSTOM_INFO_OUT=harnesses/out_gll/default
+# command line:
+'afl-fuzz' '-i' 'harnesses/in/' '-o' 'harnesses/out_gll' '--' './harnesses/get_lexem_list.out'

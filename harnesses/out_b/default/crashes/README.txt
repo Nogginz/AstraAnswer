@@ -1,6 +1,6 @@
 Command line used to find this crash:
 
-afl-fuzz -i harnesses/in -o harnesses/out_b -- ./harnesses/build_syntax_tree_persistens.out
+afl-fuzz -i harnesses/in -o harnesses/out_b -- ./harnesses/build_syntax_tree.out
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
 memory limit. The limit used for this fuzzing session was 0 B.

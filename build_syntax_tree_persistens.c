@@ -4,12 +4,8 @@
 #include "hardcore_northcutt.h"
 
 
-//void print_lexem_list(list_type lst);
 int get_lexem_list_len(list_type lst);
 cmd_link build_syntax_tree(list_type lst,int start_index,int end_index);
-void print_syntax_tree(cmd_link cmd_tree_root,int shift);
-void rm_syntax_tree(cmd_link tree);
-void run_tree(cmd_link tree);
 list_type create_lexem_list(status *program_status, char str[]);
 void print_lexem_list(list_type lst);
 

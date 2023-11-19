@@ -1,7 +1,6 @@
 CC=afl-clang-fast
 HARNESSES=get_lexem_list.out build_syntax_tree.out build_syntax_tree_persistens.out
-FLAGS=-g3 
-#-fsanitize=address
+FLAGS=-g3 -fsanitize=address
 run:
 	make build
 	./trusty_reflection.out
